@@ -4,8 +4,8 @@
   "description": "Image processing service for Gatheraa \u2014 resizing, optimization, watermarking, CDN integration",
   "main": "index.js",
   "scripts": {
-    "start": "node init && node index.js",
-    "dev": "node init && nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "lint": "eslint . --ext .js,.mjs",
     "format": "prettier --write \"**/*.{js,json,md}\""
   },
